@@ -12,10 +12,5 @@ jobs:
       - run: node -v
       - name: install node modules
         run: yarn
-      - name: Deploying the project
-        env:
-          VERCEL_ORGid: Kp22NlopmLasGwmaCXKXKjuF
-          VERCEL_PROJECTid: prj_dtVU7lp8bGN2VTk5RFpl2pMzFv0e
-        run: yarn deploy
       - run: tree
 
