@@ -10,5 +10,7 @@ jobs:
         with:
           node-version: "14.0"
       - run: node -v
+      - name: install node modules
+        run: yarn
       - run: tree
       - run: echo "Job done"
