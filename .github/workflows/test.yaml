@@ -11,3 +11,4 @@ jobs:
           node-version: "14.0"
       - run: node -v
       - run: tree
+      - run: echo "Job done"
